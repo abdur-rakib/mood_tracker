@@ -70,6 +70,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     padding: 20,
     justifyContent: 'space-between',
+    backgroundColor: 'rgba(0,0,0,0.2)',
   },
   image: {
     alignSelf: 'center',
@@ -80,6 +81,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginBottom: 20,
     letterSpacing: 1,
+    color: theme.colorWhite,
   },
   moodList: {
     flexDirection: 'row',
